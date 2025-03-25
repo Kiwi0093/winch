@@ -1,0 +1,17 @@
+#!/bin/sh
+
+#Parmeter Pre-Define
+
+#Normal Color
+CRN1='\e[32m'     # Green for Process completed 
+CRN2='\e[34m'     # Blue for  
+CRN3='\e[35m'     # Magenta for Copyright 
+CRN4='\e[97m'	  # White
+# Hight Light Color
+CRL1='\e[91m'     # Light Red for Warning
+CRL2='\e[94m'     # Light Blue for Description
+CRL3='\e[95m'     # Light Magenta for process step
+CRL4='\e[96m'     # Light Cyan for input
+
+# End Code
+NC='\e[0m'
