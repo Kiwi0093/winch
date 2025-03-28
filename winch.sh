@@ -19,6 +19,10 @@ sudo pacman-key --populate
 sudo pacman -Syyuu --noconfirm
 sudo pacman -S $PACMAN_PACKAGES --noconfirm
 
+# Setting WSL
+sudo echo "[boot]" > /etc/wsl.conf
+sudo echo "systemd=true" >> /etc/wsl.conf
+
 # Install yay
 echo -e "Installl AUR package manager - yay via git & makepkg"
 cd
